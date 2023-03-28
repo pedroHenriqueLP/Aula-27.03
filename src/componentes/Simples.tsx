@@ -1,7 +1,6 @@
-
 import React from "react";
 import { Text } from "react-native";
+import padrao from "../estilo/padrao";
 
 export default (props: any) => 
-   <Text>Arrow 1: {props.texto}</Text>
-   
+   <Text style={padrao.ex}>Arrow 1: {props.texto}</Text>   
