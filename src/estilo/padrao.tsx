@@ -9,5 +9,9 @@ export default StyleSheet.create({
         borderColor: '#222',
         fontSize: 24,
         fontWeight: 'bold',
+    },
+    
+    txtG:{
+        fontSize: 32
     }
 })
