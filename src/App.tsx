@@ -10,6 +10,9 @@ import Membro from "./componentes/relacao/Membro";
 import UsuarioLogado from "./componentes/UsuarioLogado";
 import If from "./componentes/If";
 
+import Botao from "./componentes/Botao";
+import Contador from "./componentes/Contador";
+
 export default class App extends Component{
   render() {
     return (
@@ -27,11 +30,16 @@ export default class App extends Component{
           <Membro nome="José" sobrenome="Silva" />
         </Familia>*/}
 
-        <UsuarioLogado usuario={ {nome:'teste', email:'teste@teste.com'} }/>
+        {/*<UsuarioLogado usuario={ {nome:'teste', email:'teste@teste.com'} }/>
         <UsuarioLogado usuario={ {nome:'teste 2'} } />
         <UsuarioLogado usuario={ {email:'teste@teste.com'} } />        
         <UsuarioLogado usuario={ null } />
-        <UsuarioLogado usuario={ {} } />
+        <UsuarioLogado usuario={ {} } />*/}
+
+        {/*<Botao />*/}
+        
+        <Contador valorInicial = {50} />
+        
       </View>
     );      
   }

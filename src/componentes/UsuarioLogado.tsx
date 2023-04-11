@@ -1,5 +1,5 @@
 import React from "react";
-import { Text } from "react-native/types";
+import { Text } from "react-native";
 import padrao from "../estilo/padrao";
 import If from "./If";
 
