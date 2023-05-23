@@ -13,11 +13,14 @@ import If from "./componentes/If";
 import Botao from "./componentes/Botao";
 import Contador from "./componentes/Contador";
 
+import DimensoesFixas from "./componentes/DimensoesFixas";
+import Mega from "./componentes/MegaSena/Mega";
+
 export default class App extends Component{
   render() {
     return (
     
-      <View style={estilos.container}>
+      <View >
         {/*<Simples texto='Pedro Henrique' />*/}
 
         {/*<Frag titulo="Cadastro" 
@@ -38,8 +41,12 @@ export default class App extends Component{
 
         {/*<Botao />*/}
         
-        <Contador valorInicial = {50} />
-        
+        {/*<Contador valorInicial = {50} />*/}
+
+        {/*<DimensoesFixas />*/}
+
+        <Mega qtdeNumeros={7} />        
+
       </View>
     );      
   }
