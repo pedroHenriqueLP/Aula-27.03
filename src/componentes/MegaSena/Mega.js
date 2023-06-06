@@ -1,3 +1,5 @@
+/*
+
 import React, { Component } from 'react';
 import { Button, Text, TextInput, View } from 'react-native';
 import padrao from '../estilo/padrao.js';
@@ -73,3 +75,5 @@ export default class Mega extends Component {
         )
     }   
 }
+
+*/
