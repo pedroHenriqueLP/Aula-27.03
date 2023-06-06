@@ -14,7 +14,8 @@ import Botao from "./componentes/Botao";
 import Contador from "./componentes/Contador";
 
 import DimensoesFixas from "./componentes/DimensoesFixas";
-import Mega from "./componentes/MegaSena/Mega";
+import Calculadora from "./componentes/calculadora/Calculadora";
+//import Mega from "./componentes/MegaSena/Mega";
 
 export default class App extends Component{
   render() {
@@ -45,7 +46,9 @@ export default class App extends Component{
 
         {/*<DimensoesFixas />*/}
 
-        <Mega qtdeNumeros={7} />        
+        {/*<Mega qtdeNumeros={7} /> */}
+
+        <Calculadora />
 
       </View>
     );      
